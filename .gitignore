@@ -1,0 +1,34 @@
+src/*.exe
+src/patriotcoin
+src/patriotcoind
+src/test_patriotcoin
+.*.swp
+*.*~*
+*.bak
+*.rej
+*.orig
+*.o
+*.patch
+.patriotcoin
+
+# Compilation and Qt preprocessor part
+*.qm
+Makefile
+patriotcoin-qt
+Patriotcoin-Qt.app
+
+# Unit-tests
+Makefile.test
+patriotcoin-qt_test
+
+# Resources cpp
+qrc_*.cpp
+
+# Qt creator
+*.pro.user
+
+# Mac specific
+.DS_Store
+build
+
+!src/leveldb*/Makefile
